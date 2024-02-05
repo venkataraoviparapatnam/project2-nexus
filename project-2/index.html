@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Software</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #2196F3);
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .product-images {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+
+    .product-images img {
+      width: 20%;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .info-section {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .info-section form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .info-section input {
+      padding: 10px;
+    }
+
+    .visual-elements {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .visual-elements img {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .social-media {
+      margin-top: 20px;
+    }
+
+    .social-media a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #2196F3;
+      font-weight: bold;
+    }
+
+    .interactive-features {
+      margin-top: 20px;
+    }
+
+    .content-sections {
+      margin-top: 20px;
+    }
+
+    .content-section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nexus Software</h1>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to Nexus Software's web portfolio.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a cutting-edge software company...</p>
+    </section>
+
+    <section id="services">
+      <h2>Products/Services</h2>
+      <div class="product-images">
+        <img src="https://cdn.dribbble.com/users/983464/screenshots/17036828/nexus_logo_4x.jpg" alt="Product Interface 1">
+        <img src="https://logoeps.com/wp-content/uploads/2013/01/google-nexus-logo-vector.png" alt="Product Interface 2">
+        <img src="https://dcassetcdn.com/design_img/3639763/761962/761962_20354203_3639763_3ea77b33_image.png" alt="Product Interface 3">
+      </div>
+      <p>Explore our innovative software solutions...</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for inquiries...</p>
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Information Section -->
+    <section class="info-section" id="information">
+      <h3>Information Section</h3>
+      <p>Collect details of potential customers:</p>
+      <form id="customerDetailsForm">
+        <label for="customerName">Name:</label>
+        <input type="text" id="customerName" name="customerName" required>
+
+        <label for="customerEmail">Email:</label>
+        <input type="email" id="customerEmail" name="customerEmail" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Visual Elements -->
+    <section class="visual-elements" id="visuals">
+      <h3>Visual Elements</h3>
+      <img src="http://occreates.com/wp-content/uploads/2016/12/blog-visual-elements.png" alt="Visual 1">
+      <img src="https://d1uvxqwmcz8fl1.cloudfront.net/tes/resources/12349268/26f62875-990c-4e48-a098-da3f13bc2c8f/image?width=500&height=500&version=1594221327859" alt="Visual 2">
+      <img src="http://cdn.thinglink.me/api/image/838166724078469121/1024/10/scaletowidth/0/0/1/1/false/true?wait=true" alt="Visual 3">
+    </section>
+
+    <!-- Social Media Integration -->
+    <section class="social-media" id="social-media">
+      <h3>Social Media Integration</h3>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Twitter</a>
+      <a href="#" target="_blank">LinkedIn</a>
+    </section>
+
+    <!-- Interactive Features -->
+    <section class="interactive-features" id="interactive-features">
+      <h3>Interactive Features</h3>
+      <p>Integrate subtle interactive features to enhance user experience.</p>
+    </section>
+
+    <!-- Content Sections -->
+    <section class="content-sections" id="content-sections">
+      <h3>Content Sections</h3>
+
+      <!-- Add more sections as needed -->
+      <div class="content-section">
+        <h2>Home</h2>
+        <p>Welcome to Nexus Software's web portfolio.</p>
+      </div>
+
+      <div class="content-section">
+        <h2>About Us</h2>
+        <p>We are a cutting-edge software company...</p>
+      </div>
+
+      <div class="content-section">
+        <h2>Products/Services</h2>
+        <div class="product-images">
+          <img src="https://i.pinimg.com/564x/1b/68/8f/1b688f8741e4b7bae256b2a91755ab07.jpg" alt="Product Interface 1">
+          <img src="https://nexusseries.in/img/product/product-2.jpg" alt="Product Interface 2">
+          <img src="https://cpimg.tistatic.com/04425623/b/4/Nexus-Membranes.jpg?tr=n-w300" alt="Product Interface 3">
+        </div>
+        <p>Explore our innovative software solutions...</p>
+      </div>
+
+      <div class="content-section">
+        <h2>Contact Us
